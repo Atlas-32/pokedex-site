@@ -1,0 +1,29 @@
+.container {
+  background-color: var(--background-color);
+  min-height: 100vh;
+}
+
+.nav-bar {
+  background-color: var(--background-color-content);
+}
+
+.description-container {
+  background-color: var(--background-color-content);
+  margin: 16px 12px 0 12px;
+  padding: 16px 12px;
+  border-radius: 8px;
+  font-size: 16px;
+
+  .base-stat-item {
+    display: flex;
+    padding: 4px 0;
+
+    .base-stat-label {
+      width: 48px;
+    }
+    .base-stat-progress {
+      flex: 1;
+      text-align: right;
+    }
+  }
+}

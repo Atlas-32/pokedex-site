@@ -1,0 +1,14 @@
+.searchbar-container {
+  padding: 12px;
+  border-bottom: solid 1px var(--adm-color-border);
+}
+
+.checklist-container {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.checklist {
+  --border-top: 0;
+  --border-bottom: 0;
+}

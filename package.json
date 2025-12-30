@@ -1,0 +1,27 @@
+{
+  "name": "pokedex-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "export:static": "next build && next export"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.1.0",
+    "antd-mobile": "^5.41.1",
+    "next": "^16.0.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-virtualized": "^9.22.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "@types/react": "^18.2.21",
+    "@types/react-virtualized": "^9.22.3",
+    "sass": "^1.70.0",
+    "typescript": "^5.4.2"
+  }
+}

@@ -1,0 +1,14 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  flex: 0;
+}
+
+.list-container {
+  flex: 1;
+  overflow: auto;
+}

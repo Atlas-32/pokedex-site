@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+// css variables
+:root {
+  --background-color: #f5f5f5;
+  --background-color-content: #ffffff;
+
+  --pokemon-type-color-normal: #a8a77a;
+  --pokemon-type-color-fire: #ee8130;
+  --pokemon-type-color-water: #6390f0;
+  --pokemon-type-color-electric: #f7d02c;
+  --pokemon-type-color-grass: #7ac74c;
+  --pokemon-type-color-ice: #96d9d6;
+  --pokemon-type-color-fighting: #c22e28;
+  --pokemon-type-color-poison: #a33ea1;
+  --pokemon-type-color-ground: #e2bf65;
+  --pokemon-type-color-flying: #a98ff3;
+  --pokemon-type-color-psychic: #f95587;
+  --pokemon-type-color-bug: #a6b91a;
+  --pokemon-type-color-rock: #b6a136;
+  --pokemon-type-color-ghost: #735797;
+  --pokemon-type-color-dragon: #6f35fc;
+  --pokemon-type-color-dark: #705746;
+  --pokemon-type-color-steel: #b7b7ce;
+  --pokemon-type-color-fairy: #d685ad;
+}
